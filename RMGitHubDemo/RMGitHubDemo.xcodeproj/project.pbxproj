@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45D86303173841DA00A1BB3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D86302173841DA00A1BB3E /* UIKit.framework */; };
+		45D86305173841DA00A1BB3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D86304173841DA00A1BB3E /* Foundation.framework */; };
+		45D86307173841DA00A1BB3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D86306173841DA00A1BB3E /* CoreGraphics.framework */; };
+		45D8630D173841DA00A1BB3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45D8630B173841DA00A1BB3E /* InfoPlist.strings */; };
+		45D8630F173841DA00A1BB3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8630E173841DA00A1BB3E /* main.m */; };
+		45D86313173841DA00A1BB3E /* RMGHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D86312173841DA00A1BB3E /* RMGHAppDelegate.m */; };
+		45D86315173841DA00A1BB3E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D86314173841DA00A1BB3E /* Default.png */; };
+		45D86317173841DA00A1BB3E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D86316173841DA00A1BB3E /* Default@2x.png */; };
+		45D86319173841DA00A1BB3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D86318173841DA00A1BB3E /* Default-568h@2x.png */; };
+		45D8631C173841DA00A1BB3E /* RMGHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8631B173841DA00A1BB3E /* RMGHViewController.m */; };
+		45D8631F173841DA00A1BB3E /* RMGHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D8631D173841DA00A1BB3E /* RMGHViewController.xib */; };
+		45D863271738435B00A1BB3E /* RMGitHubDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45D863251738435B00A1BB3E /* RMGitHubDemo.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45D862FF173841DA00A1BB3E /* RMGitHubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMGitHubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D86302173841DA00A1BB3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45D86304173841DA00A1BB3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45D86306173841DA00A1BB3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45D8630A173841DA00A1BB3E /* RMGitHubDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMGitHubDemo-Info.plist"; sourceTree = "<group>"; };
+		45D8630C173841DA00A1BB3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45D8630E173841DA00A1BB3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45D86310173841DA00A1BB3E /* RMGitHubDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RMGitHubDemo-Prefix.pch"; sourceTree = "<group>"; };
+		45D86311173841DA00A1BB3E /* RMGHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMGHAppDelegate.h; sourceTree = "<group>"; };
+		45D86312173841DA00A1BB3E /* RMGHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMGHAppDelegate.m; sourceTree = "<group>"; };
+		45D86314173841DA00A1BB3E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		45D86316173841DA00A1BB3E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		45D86318173841DA00A1BB3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		45D8631A173841DA00A1BB3E /* RMGHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMGHViewController.h; sourceTree = "<group>"; };
+		45D8631B173841DA00A1BB3E /* RMGHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMGHViewController.m; sourceTree = "<group>"; };
+		45D8631E173841DA00A1BB3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RMGHViewController.xib; sourceTree = "<group>"; };
+		45D863261738435B00A1BB3E /* RMGitHubDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RMGitHubDemo.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45D862FC173841DA00A1BB3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D86303173841DA00A1BB3E /* UIKit.framework in Frameworks */,
+				45D86305173841DA00A1BB3E /* Foundation.framework in Frameworks */,
+				45D86307173841DA00A1BB3E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45D862F6173841DA00A1BB3E = {
+			isa = PBXGroup;
+			children = (
+				45D86308173841DA00A1BB3E /* RMGitHubDemo */,
+				45D86301173841DA00A1BB3E /* Frameworks */,
+				45D86300173841DA00A1BB3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45D86300173841DA00A1BB3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D862FF173841DA00A1BB3E /* RMGitHubDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D86301173841DA00A1BB3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45D86302173841DA00A1BB3E /* UIKit.framework */,
+				45D86304173841DA00A1BB3E /* Foundation.framework */,
+				45D86306173841DA00A1BB3E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45D86308173841DA00A1BB3E /* RMGitHubDemo */ = {
+			isa = PBXGroup;
+			children = (
+				45D86311173841DA00A1BB3E /* RMGHAppDelegate.h */,
+				45D86312173841DA00A1BB3E /* RMGHAppDelegate.m */,
+				45D8631A173841DA00A1BB3E /* RMGHViewController.h */,
+				45D8631B173841DA00A1BB3E /* RMGHViewController.m */,
+				45D8631D173841DA00A1BB3E /* RMGHViewController.xib */,
+				45D86309173841DA00A1BB3E /* Supporting Files */,
+			);
+			path = RMGitHubDemo;
+			sourceTree = "<group>";
+		};
+		45D86309173841DA00A1BB3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45D8630A173841DA00A1BB3E /* RMGitHubDemo-Info.plist */,
+				45D8630B173841DA00A1BB3E /* InfoPlist.strings */,
+				45D8630E173841DA00A1BB3E /* main.m */,
+				45D86310173841DA00A1BB3E /* RMGitHubDemo-Prefix.pch */,
+				45D86314173841DA00A1BB3E /* Default.png */,
+				45D86316173841DA00A1BB3E /* Default@2x.png */,
+				45D86318173841DA00A1BB3E /* Default-568h@2x.png */,
+				45D863251738435B00A1BB3E /* RMGitHubDemo.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45D862FE173841DA00A1BB3E /* RMGitHubDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D86322173841DA00A1BB3E /* Build configuration list for PBXNativeTarget "RMGitHubDemo" */;
+			buildPhases = (
+				45D862FB173841DA00A1BB3E /* Sources */,
+				45D862FC173841DA00A1BB3E /* Frameworks */,
+				45D862FD173841DA00A1BB3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMGitHubDemo;
+			productName = RMGitHubDemo;
+			productReference = 45D862FF173841DA00A1BB3E /* RMGitHubDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45D862F7173841DA00A1BB3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RMGH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Caldofran;
+			};
+			buildConfigurationList = 45D862FA173841DA00A1BB3E /* Build configuration list for PBXProject "RMGitHubDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45D862F6173841DA00A1BB3E;
+			productRefGroup = 45D86300173841DA00A1BB3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45D862FE173841DA00A1BB3E /* RMGitHubDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45D862FD173841DA00A1BB3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D8630D173841DA00A1BB3E /* InfoPlist.strings in Resources */,
+				45D86315173841DA00A1BB3E /* Default.png in Resources */,
+				45D86317173841DA00A1BB3E /* Default@2x.png in Resources */,
+				45D86319173841DA00A1BB3E /* Default-568h@2x.png in Resources */,
+				45D8631F173841DA00A1BB3E /* RMGHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45D862FB173841DA00A1BB3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D8630F173841DA00A1BB3E /* main.m in Sources */,
+				45D86313173841DA00A1BB3E /* RMGHAppDelegate.m in Sources */,
+				45D8631C173841DA00A1BB3E /* RMGHViewController.m in Sources */,
+				45D863271738435B00A1BB3E /* RMGitHubDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45D8630B173841DA00A1BB3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D8630C173841DA00A1BB3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45D8631D173841DA00A1BB3E /* RMGHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D8631E173841DA00A1BB3E /* en */,
+			);
+			name = RMGHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45D86320173841DA00A1BB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45D86321173841DA00A1BB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45D86323173841DA00A1BB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMGitHubDemo/RMGitHubDemo-Prefix.pch";
+				INFOPLIST_FILE = "RMGitHubDemo/RMGitHubDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45D86324173841DA00A1BB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMGitHubDemo/RMGitHubDemo-Prefix.pch";
+				INFOPLIST_FILE = "RMGitHubDemo/RMGitHubDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45D862FA173841DA00A1BB3E /* Build configuration list for PBXProject "RMGitHubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D86320173841DA00A1BB3E /* Debug */,
+				45D86321173841DA00A1BB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45D86322173841DA00A1BB3E /* Build configuration list for PBXNativeTarget "RMGitHubDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D86323173841DA00A1BB3E /* Debug */,
+				45D86324173841DA00A1BB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45D863251738435B00A1BB3E /* RMGitHubDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45D863261738435B00A1BB3E /* RMGitHubDemo.xcdatamodel */,
+			);
+			currentVersion = 45D863261738435B00A1BB3E /* RMGitHubDemo.xcdatamodel */;
+			path = RMGitHubDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45D862F7173841DA00A1BB3E /* Project object */;
+}
