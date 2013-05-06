@@ -47,6 +47,7 @@
 		45D8638717384E8000A1BB3E /* SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8637517384E8000A1BB3E /* SLRESTfulCoreData.m */; };
 		45D8638917384FF100A1BB3E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D8638817384FF100A1BB3E /* MobileCoreServices.framework */; };
 		45D8638B1738501B00A1BB3E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D8638A1738501B00A1BB3E /* SystemConfiguration.framework */; };
+		45D8638D1738553600A1BB3E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D8638C1738553600A1BB3E /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +125,7 @@
 		45D8637617384E8000A1BB3E /* SLRESTfulCoreDataBackgroundQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRESTfulCoreDataBackgroundQueue.h; sourceTree = "<group>"; };
 		45D8638817384FF100A1BB3E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		45D8638A1738501B00A1BB3E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		45D8638C1738553600A1BB3E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D8638D1738553600A1BB3E /* CoreData.framework in Frameworks */,
 				45D8638B1738501B00A1BB3E /* SystemConfiguration.framework in Frameworks */,
 				45D8638917384FF100A1BB3E /* MobileCoreServices.framework in Frameworks */,
 				45D86303173841DA00A1BB3E /* UIKit.framework in Frameworks */,
@@ -162,6 +165,7 @@
 		45D86301173841DA00A1BB3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				45D8638C1738553600A1BB3E /* CoreData.framework */,
 				45D8638A1738501B00A1BB3E /* SystemConfiguration.framework */,
 				45D8638817384FF100A1BB3E /* MobileCoreServices.framework */,
 				45D86302173841DA00A1BB3E /* UIKit.framework */,
