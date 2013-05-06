@@ -1,0 +1,3 @@
+[submodule "RMGitHubDemo/RMGitHubDemo/Libraries/AFNetworking"]
+	path = RMGitHubDemo/RMGitHubDemo/Libraries/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
