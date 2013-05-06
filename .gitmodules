@@ -1,3 +1,6 @@
 [submodule "RMGitHubDemo/RMGitHubDemo/Libraries/AFNetworking"]
 	path = RMGitHubDemo/RMGitHubDemo/Libraries/AFNetworking
 	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "RMGitHubDemo/RMGitHubDemo/Libraries/SLRESTfulCoreData"]
+	path = RMGitHubDemo/RMGitHubDemo/Libraries/SLRESTfulCoreData
+	url = https://github.com/OliverLetterer/SLRESTfulCoreData.git
