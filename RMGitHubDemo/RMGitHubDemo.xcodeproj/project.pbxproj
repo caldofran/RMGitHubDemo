@@ -28,23 +28,23 @@
 		45D863431738463D00A1BB3E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D863381738463D00A1BB3E /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		45D863441738463D00A1BB3E /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8633A1738463D00A1BB3E /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		45D863451738463D00A1BB3E /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8633C1738463D00A1BB3E /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		45D8637717384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8634B17384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreData.m */; };
-		45D8637817384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8634D17384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataHelpers.m */; };
-		45D8637917384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataQueryInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8634F17384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataQueryInterface.m */; };
-		45D8637A17384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8635117384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataSetup.m */; };
-		45D8637B17384E8000A1BB3E /* NSManagedObjectContext+SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8635417384E8000A1BB3E /* NSManagedObjectContext+SLRESTfulCoreData.m */; };
-		45D8637C17384E8000A1BB3E /* NSError+SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8635817384E8000A1BB3E /* NSError+SLRESTfulCoreData.m */; };
-		45D8637D17384E8000A1BB3E /* NSString+SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8635B17384E8000A1BB3E /* NSString+SLRESTfulCoreData.m */; };
-		45D8637E17384E8000A1BB3E /* NSURL+SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8635E17384E8000A1BB3E /* NSURL+SLRESTfulCoreData.m */; };
-		45D8637F17384E8000A1BB3E /* SLBlockValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636117384E8000A1BB3E /* SLBlockValueTransformer.m */; };
-		45D8638017384E8000A1BB3E /* SLIdentityValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636317384E8000A1BB3E /* SLIdentityValueTransformer.m */; };
-		45D8638117384E8000A1BB3E /* SLJSONStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636517384E8000A1BB3E /* SLJSONStringValueTransformer.m */; };
-		45D8638217384E8000A1BB3E /* SLNSURLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636717384E8000A1BB3E /* SLNSURLValueTransformer.m */; };
-		45D8638317384E8000A1BB3E /* SLRGBHexStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636917384E8000A1BB3E /* SLRGBHexStringValueTransformer.m */; };
-		45D8638417384E8000A1BB3E /* SLAttributeMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636C17384E8000A1BB3E /* SLAttributeMapping.m */; };
-		45D8638517384E8000A1BB3E /* SLObjectConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636F17384E8000A1BB3E /* SLObjectConverter.m */; };
+		45D8637717384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8634B17384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8637817384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8634D17384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataHelpers.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8637917384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataQueryInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8634F17384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataQueryInterface.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8637A17384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8635117384E8000A1BB3E /* NSManagedObject+SLRESTfulCoreDataSetup.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8637B17384E8000A1BB3E /* NSManagedObjectContext+SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8635417384E8000A1BB3E /* NSManagedObjectContext+SLRESTfulCoreData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8637C17384E8000A1BB3E /* NSError+SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8635817384E8000A1BB3E /* NSError+SLRESTfulCoreData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8637D17384E8000A1BB3E /* NSString+SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8635B17384E8000A1BB3E /* NSString+SLRESTfulCoreData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8637E17384E8000A1BB3E /* NSURL+SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8635E17384E8000A1BB3E /* NSURL+SLRESTfulCoreData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8637F17384E8000A1BB3E /* SLBlockValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636117384E8000A1BB3E /* SLBlockValueTransformer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8638017384E8000A1BB3E /* SLIdentityValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636317384E8000A1BB3E /* SLIdentityValueTransformer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8638117384E8000A1BB3E /* SLJSONStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636517384E8000A1BB3E /* SLJSONStringValueTransformer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8638217384E8000A1BB3E /* SLNSURLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636717384E8000A1BB3E /* SLNSURLValueTransformer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8638317384E8000A1BB3E /* SLRGBHexStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636917384E8000A1BB3E /* SLRGBHexStringValueTransformer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8638417384E8000A1BB3E /* SLAttributeMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636C17384E8000A1BB3E /* SLAttributeMapping.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		45D8638517384E8000A1BB3E /* SLObjectConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8636F17384E8000A1BB3E /* SLObjectConverter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		45D8638617384E8000A1BB3E /* SLObjectDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8637217384E8000A1BB3E /* SLObjectDescription.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		45D8638717384E8000A1BB3E /* SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8637517384E8000A1BB3E /* SLRESTfulCoreData.m */; };
+		45D8638717384E8000A1BB3E /* SLRESTfulCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D8637517384E8000A1BB3E /* SLRESTfulCoreData.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		45D8638917384FF100A1BB3E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D8638817384FF100A1BB3E /* MobileCoreServices.framework */; };
 		45D8638B1738501B00A1BB3E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D8638A1738501B00A1BB3E /* SystemConfiguration.framework */; };
 		45D8638D1738553600A1BB3E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D8638C1738553600A1BB3E /* CoreData.framework */; };
@@ -597,6 +597,7 @@
 				45D86324173841DA00A1BB3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
