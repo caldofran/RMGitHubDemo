@@ -1,0 +1,8 @@
+ALWAYS_SEARCH_USER_PATHS = YES
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS}
+OTHER_LDFLAGS = -ObjC -framework CoreData -framework Foundation -framework MobileCoreServices -framework SystemConfiguration -framework UIKit
+PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/AFNetworking" "${PODS_ROOT}/BuildHeaders/AFRESTfulCoreDataBackgroundQueue" "${PODS_ROOT}/BuildHeaders/SLCoreDataStack" "${PODS_ROOT}/BuildHeaders/SLRESTfulCoreData"
+PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
+PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/AFRESTfulCoreDataBackgroundQueue" "${PODS_ROOT}/Headers/SLCoreDataStack" "${PODS_ROOT}/Headers/SLRESTfulCoreData"
+PODS_ROOT = ${SRCROOT}/Pods

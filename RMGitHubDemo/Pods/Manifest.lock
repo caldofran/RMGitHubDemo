@@ -1,0 +1,25 @@
+PODS:
+  - AFNetworking (1.2.1)
+  - AFRESTfulCoreDataBackgroundQueue (1.0.1):
+    - AFNetworking (>= 1.2.1)
+    - SLRESTfulCoreData (>= 1.0.0)
+  - SLCoreDataStack (0.2.0)
+  - SLRESTfulCoreData (1.0.3):
+    - SLRESTfulCoreData/Complete
+  - SLRESTfulCoreData/Complete (1.0.3):
+    - AFNetworking (>= 1.2.1)
+    - AFRESTfulCoreDataBackgroundQueue (>= 1.0.1)
+    - SLCoreDataStack (>= 0.1.0)
+    - SLRESTfulCoreData/Core
+  - SLRESTfulCoreData/Core (1.0.3)
+
+DEPENDENCIES:
+  - SLRESTfulCoreData (>= 1.0.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: 616da0028916ce296f5c3cef74e5552eb4e10e13
+  AFRESTfulCoreDataBackgroundQueue: a1369f66fdb8c3712e348ae18c8db3489cc9ae0e
+  SLCoreDataStack: 6c65e4f829f32ff3bb596fc01709ec83716932a6
+  SLRESTfulCoreData: 6ee26ce23390f3ad5fa48c842849c654402f3555
+
+COCOAPODS: 0.19.1
